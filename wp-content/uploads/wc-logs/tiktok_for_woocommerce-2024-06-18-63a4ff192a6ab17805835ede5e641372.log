@@ -1,0 +1,32 @@
+2024-06-18T09:59:14+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.2/tbp/business_profile/store/update/
+
+{"business_platform":"WOO_COMMERCE","external_business_id":"tt4b_woocommerce_66681613dc3e4","net_gmv":[{"interval":"LIFETIME","max":2210,"min":2210,"unit":"CURRENCY"}],"net_order_count":[{"interval":"LIFETIME","max":1,"min":1,"unit":"COUNT"}],"tenure":{"min":4,"max":4,"unit":"DAYS"},"extra_data":"1.2.6"}
+ ajax: yes
+2024-06-18T09:59:15+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 103
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 202406180959141BEDAF43EAD9EC178DD7
+x-tt-trace-host: 01e0c7c09852ce1bc38f1344622c57256db2ed60135e7c8061a4962a4a33ac33d23d63b78169d67ad4b1de18b325165024eeed1feb073c8714e9f3746d0b947daa6962fde0f9bae612e0ebe9fba0c5b484890b6889935c4ac805bbf2571ac4f825f568716846ba4b5cc468c08dc005051e
+x-tt-trace-id: 00-2406180959141BEDAF43EAD9EC178DD7-29D7304B70C4414C-00
+Server: TLB
+X-Origin-Response-Time: 14,23.210.250.149
+X-Akamai-Request-ID: b4d3d53.30f379d6
+Expires: Tue, 18 Jun 2024 09:59:15 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 18 Jun 2024 09:59:15 GMT
+X-Cache: TCP_MISS from a23-203-135-71.deploy.akamaitechnologies.com (AkamaiGHost/11.5.2-56655770) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-210-250-149.deploy.akamaitechnologies.com (AkamaiGHost/11.5.2-56655770) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=36, origin; dur=14
+Server-Timing: inner; dur=5
+X-Parent-Response-Time: 48,23.203.135.71
+
+{"code":40104,"message":"The access_token is empty.","request_id":"202406180959141BEDAF43EAD9EC178DD7"}
+
+2024-06-18T15:24:50+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
